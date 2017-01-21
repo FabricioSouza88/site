@@ -331,3 +331,31 @@ h2.title span.parenteses{
             opacity: 1;
         }
     }
+
+
+/** OWL CAROUSEL **/
+    .owl-carousel {
+        position: relative;
+    }
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -10px; /* Half of the prev/next buttons height here in negatives to center them perfectly */
+    }
+    .owl-prev {
+        left: 0;
+    }
+    .owl-next {
+        right: 0;
+    }
+
+    .item .col-media  {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .company-seal {
+        height: auto;
+        width: 24px;
+    }

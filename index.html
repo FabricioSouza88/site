@@ -19,7 +19,7 @@
     <meta name="twitter:creator" content="@cecelabomfim">
     <meta name="twitter:image" content="https://s30.postimg.org/u1rklzg8h/opengraphimg.jpg">
 
-	<title>Fabricio Souza - Desenvolvedor Web - Backend</title>
+	<title>Fabricio Souza - Desenvolvedor Web</title>
 	<meta name="description" content="Sou Desenvolvedora Frontend e Backend com PHP que quer seguir para o mundo de aplicativos. Aqui você pode ver um pouco sobre mim e alguns projetos que me envolvi.">
 	<link rel="author" href="https://www.facebook.com/marcelabomfim">
 
@@ -29,6 +29,10 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- Owl Carrousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css" />
 
 	<!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -52,7 +56,7 @@
 	    	</button>
 	    	<a href="#">
 	        	<div class="logo-container">
-	                <div class="logo" rel="tooltip" title="O Capitão América entendeu a referência" data-placement="bottom" data-html="true">
+	                <div class="logo" rel="tooltip" title="Fabricio Souza" data-placement="bottom" data-html="true">
 	                    <img src="assets/img/logo-marcela-bomfim.png" alt="Fabricio Souza Logo">
 	                </div>
 	                <div class="brand">
@@ -70,8 +74,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="#portfolio">
-						Portfolio
+					<a href="#projects">
+						Projetos
 					</a>
 				</li>
 				<li>
@@ -187,25 +191,88 @@
         	</div>
 		</div>
 
-	    <div class="section" id="portfolio">
+	    <div class="section" id="projects">
 	        <div class="container">
 	            <div class="row">
 	            	<h2 class="text-center title">Alguns dos projetos que já participei</h2>
-	            	<div class="portfolio-item">
-	                	<div class="col-sm-7">
-	                        <img src="assets/img/portfolio/move-cidade.png" alt="Move Cidade" class="img-rounded img-responsive img-raised">
-	                    </div>
-	                	<div class="col-sm-5">
-	                        <h3>Move Cidade</h3>
-	                        <p><b>Move Cidade</b> é um portal voltado para a mobilidade urbana, desenvolvido em parceria com o IDEC.</p>
-	                        <p>Possui plataforma em Wordpress com diversas customizações em PHP e Javascript.</p>
+	            	
+	            	<div class="owl-carousel owl-theme">
+		            	<div class="item portfolio-item">
+		                	<div class="col-media col-sm-7">
+		                        <img src="assets/img/portfolio/move-cidade.png" alt="Move Cidade" class="img-rounded img-responsive img-raised">
+		                    </div>
+		                	<div class="col-sm-5">
+		                        <h3>Move Cidade</h3>
+		                        <p><b>Move Cidade</b> é um portal voltado para a mobilidade urbana, desenvolvido por mim em contrato com o IDEC.</p>
+		                        <p>Possui plataforma em Wordpress com diversas customizações em PHP e Javascript.</p>
+		                        <p><b>Lançamento: </b> Julho de 2016</p>
 
-		                    <a href="http://movecidade.org.br" class="btn btn-primary" target="_blank">
-								<i class="material-icons">open_in_new</i> Visitar
-								<div class="ripple-container"></div>
-							</a>
-	                	</div>
-	            	</div>	            	
+			                    <a href="http://movecidade.org.br" class="btn btn-primary" target="_blank">
+									<i class="material-icons">open_in_new</i> Visitar
+									<div class="ripple-container"></div>
+								</a>
+		                	</div>
+		            	</div>
+
+		            	<div class="item portfolio-item">
+		                	<div class="col-media col-sm-7">
+		                        <img src="assets/img/portfolio/fca-dealer-info.png" alt="FCA Dealer Info" class="img-rounded img-responsive img-raised">
+		                    </div>
+		                	<div class="col-sm-5">
+		                        <h3>FCA Dealer Info</h3>		                        
+		                        <p><b>FCA Dealer Info</b> é um sistema desenvolvido utilizado para lançamento disponibilização de relatórios referentes ao fluxo de loja de todas as concessionárias do grupo FCA (Fiat Chrysler Automobiles) do Brasil.</p>
+		                        <p>Desenvolvido em Java com Spring + Hibernate + JPA + JSP e Oracle, possui mecânica robusta e é um grande sucesso.</p>
+		                        <p><b>Lançamento: </b> Julho de 2016</p>
+
+		                        <div class="company-seal"><a href="#company-2x3"><img src="assets/img/empresas/2x3-logo.png"></a></div>
+
+			                    <a href="http://fcadealerinfo.com" class="btn btn-primary" target="_blank">
+									<i class="material-icons">open_in_new</i> Visitar
+									<div class="ripple-container"></div>
+								</a>
+		                	</div>
+		            	</div>
+
+		            	<div class="item portfolio-item">
+		                	<div class="col-media col-sm-7">
+		                        <img src="assets/img/portfolio/al-volante.jpg" alt="Al Volante" class="img-rounded img-responsive img-raised">
+		                    </div>
+		                	<div class="col-sm-5">
+		                        <h3>Al Volante</h3>
+		                        <p><b>Al Volante</b> O sistema de compartilhamento de arquivos internos da FIAT América Latina. Através dele, as unidades locais e os importadores podem trocar informações de gestão, imagens de produtos e, mais que isso, criar conexões entre importadores e suas agências por meio de uma rede integrada e completa.</p>
+		                        <p>Desenvolvido em Java com Spring + Hibernate e MySQL, possui mecânica robusta e é um grande sucesso.</p>
+		                        <p><b>Lançamento: </b> Abril de 2015</p>
+
+		                        <div class="company-seal"><a href="#company-2x3"><img src="assets/img/empresas/2x3-logo.png"></a></div>
+
+			                    <a href="http://movecidade.org.br" class="btn btn-primary" target="_blank">
+									<i class="material-icons">open_in_new</i> Visitar
+									<div class="ripple-container"></div>
+								</a>
+		                	</div>
+		            	</div>
+
+		            	<div class="item portfolio-item">
+		                	<div class="col-media col-sm-7">
+		                        <img src="assets/img/portfolio/siggam.png" alt="SIGGAM" class="img-rounded img-responsive img-raised">
+		                    </div>
+		                	<div class="col-sm-5">
+		                        <h3>SIGGAM</h3>
+		                        <p>Aplicação baseada em banco de dados geográficos, para suporte à gestão ambiental de seus empreendimentos. Auxilia os gestores de QSMS no monitoramento ambiental das empresas, garantindo o cumprimento dos requisitos legais (condicionantes) estabelecidos pelos órgão reguladores.</p>
+		                        <p>Desenvolvido em Java com Spring + Hibernate e Postgres.</p>
+		                        <p><b>Lançamento: </b> Março de 2013</p>
+
+		                        <div class="company-seal"><a href="#company-threetek"><img src="assets/img/empresas/threetek-logo.jpg"></a></div>
+
+			                    <a href="http://www.threetek.com.br" class="btn btn-primary" target="_blank">
+									<i class="material-icons">open_in_new</i> Visitar
+									<div class="ripple-container"></div>
+								</a>
+		                	</div>
+		            	</div>
+
+		            </div>
+
                 </div>
 	        </div>
 	    </div>
@@ -291,10 +358,10 @@
 	        	<div class="row">
 	        		<h2 class="text-center title">Experiencias</h2>
 	        		<div class="col-md-8 col-md-offset-2">
-	        			<div class="row experience">
+	        			<div class="row experience" id="company-2x3">
 	        				<div class="col-sm-2">	        					
 	        					<a href="www.2x3.com.br" target="_blank" title="2X3 Inteligência Digital">
-	        						<img src="assets/img/experiencia/2x3-logo.png" alt="2x3 Inteligencia Digital" class="img-circle img-responsive img-raised">
+	        						<img src="assets/img/empresas/2x3-logo.png" alt="2x3 Inteligencia Digital" class="img-circle img-responsive img-raised">
 	        					</a>
 	        				</div>
 	        				<div class="col-sm-10">
@@ -317,9 +384,9 @@
 	        					</div>
 	        				</div>
 	        			</div>
-	        			<div class="row experience">
+	        			<div class="row experience" id="company-threetek">
 	        				<div class="col-sm-2">
-	        					<img src="assets/img/experiencia/threetek-logo.jpg" alt="Threetek Soluções em Geomática" class="img-circle img-responsive img-raised">
+	        					<img src="assets/img/empresas/threetek-logo.jpg" alt="Threetek Soluções em Geomática" class="img-circle img-responsive img-raised">
 	        				</div>
 	        				<div class="col-sm-10">
 	        					<h3>Threetek Soluções em Geomática</h3>
@@ -330,9 +397,9 @@
 	        					</div>
 	        				</div>
 	        			</div>
-	        			<div class="row experience">
+	        			<div class="row experience" id="company-hiparc">
 	        				<div class="col-sm-2">
-	        					<img src="assets/img/experiencia/hiparc-logo.jpg" alt="Hiparc Geotecnologia" class="img-circle img-responsive img-raised">
+	        					<img src="assets/img/empresas/hiparc-logo.jpg" alt="Hiparc Geotecnologia" class="img-circle img-responsive img-raised">
 	        				</div>
 	        				<div class="col-sm-10">
 	        					<h3>Hiparc Geotecnologia</h3>
@@ -420,6 +487,9 @@
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="assets/js/material.min.js"></script>
 
+	<!-- Owl Carousel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+
 	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
 	<script src="assets/js/material-kit.js" type="text/javascript"></script>
 
@@ -438,13 +508,13 @@
 			}
 
 			ityped.init('#lets_develop', {
-	        	strings: ['me traga mais café', 'aqui funciona', 'são só duas telinhas', 'fica pronto hoje?'],
+	        	strings: ['me traga mais café!', 'aqui funciona!', 'são só duas telinhas!', 'fica pronto hoje?'],
 	        	typeSpeed: 100,
 	        	pause: 1000,
 	        	loop: true
 	      	});
 
-	      	$('.navbar-menu li a').click(function(){
+	      	$('.navbar-menu li a, .company-seal a').click(function(){
 	      		target = $(this).attr('href');
 	      		if ($(target).length){
 	      			$('html,body').animate({scrollTop: $(target).offset().top - (target=='#about'?200:50)}, 'slow');
@@ -462,6 +532,19 @@
 					$('.navbar-color-on-scroll').addClass('navbar-transparent');
 				}
 			});
+
+			$('.owl-carousel').owlCarousel({
+			    loop:true,			    
+			    nav:true,
+			    dots: false,
+			    items: 1,
+			    singleItem: true,
+			    margin: 10,
+			    navText: [
+			      "<i class='fa fa-chevron-left'></i>",
+			      "<i class='fa fa-chevron-right'></i>"
+			    ]
+				});
 
 		});
 
