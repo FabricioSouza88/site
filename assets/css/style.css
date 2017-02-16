@@ -141,6 +141,11 @@ h2.title span.parenteses{
         max-width: 600px;
         margin: 0 auto;
     }
+
+    .profile .download-curriculum {        
+        font-size: 12px;
+    }
+
     @media (max-width: 991px){
         .profile .avatar{
             top: -160px;
