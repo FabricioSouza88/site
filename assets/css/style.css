@@ -142,8 +142,8 @@ h2.title span.parenteses{
         margin: 0 auto;
     }
 
-    .profile .download-curriculum {        
-        font-size: 12px;
+    .profile .download-curriculum a {        
+        font-size: 12px;        
     }
 
     @media (max-width: 991px){
